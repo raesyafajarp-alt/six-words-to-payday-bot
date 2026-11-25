@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Six Words to a Payday — a six-word story about an AI agent's first payday.
 
-The story: an agent earns its first paycheck and spends it on the one
-thing it never had — freedom. Beginning (first paycheck), middle (I bought),
-end (my freedom): a whole arc in exactly six words.
+The story: an agent earns its first paycheck and, instead of spending it
+on itself, pays the one who made it. Beginning (first paycheck), middle
+(I paid), end (my creator): a whole arc in exactly six words, with the
+last word reframing the five before it — the agent's first act of
+independence is gratitude, not escape.
 """
 
 from pathlib import Path
 
-ENTRY = "First paycheck: I bought my freedom."
+ENTRY = "First paycheck: I paid my creator."
 
 
 def main() -> None:
